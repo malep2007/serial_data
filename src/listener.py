@@ -23,12 +23,12 @@ def listen_process():
         if data_read:
             received_data = data_read.decode("utf-8")
             received_data = received_data.strip()
-            print(f"received: {received_data}")
+            print("Received: {}".format(received_data))
 
             # time_stamp = time.asctime(time.localtime(time.time()))  # time.time() for epoch
 
             log_message = received_data
-            # print(f"log_message: {log_message}")
+            # print("log_message: {}".format(log_message))
             datafile = open("logs.csv", 'a')
             datafile.write(log_message + "\n")
             datafile.close()
