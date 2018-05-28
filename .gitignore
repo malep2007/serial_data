@@ -104,5 +104,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-/.idea
+# /.idea
 desktop.ini
+
+# ignore the IDE files
+!/.idea

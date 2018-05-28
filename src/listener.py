@@ -23,7 +23,7 @@ def listen_process():
         if data_read:
             received_data = data_read.decode("utf-8")
             received_data = received_data.strip()
-            print("Received: {}".format(received_data))
+            print "Received: {}".format(received_data)
 
             # time_stamp = time.asctime(time.localtime(time.time()))  # time.time() for epoch
 
