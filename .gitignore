@@ -109,3 +109,7 @@ desktop.ini
 
 # ignore the IDE files
 !/.idea
+
+# ignore bin files
+!/bin
+!*.pyc
